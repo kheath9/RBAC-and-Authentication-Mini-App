@@ -1,1 +1,3 @@
-# RBAC-and-Authentication-Mini-App
+This app simulates a login for two different user roles and controls access to certain end points based on the user's credentials. Valid user names are checked against defined user roles to allow access to an appropriate part of the system. 
+
+The app demonstrates the confidentiality part of the CIA triad by enforcing role-based access control. User validation prevents unauthorized access by enuring only valid usernames can continue. Two separate functions for an "administrator" and an "employee" ensures that users are restricted to roles they are permitted to have, preventing unauthorized users from accessing potentially sensitive information.  
